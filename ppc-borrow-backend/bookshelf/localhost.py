@@ -14,10 +14,10 @@ ALLOWED_HOSTS = ["*"]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.       
-        'NAME': 'bookshelf',  # Or path to database file if using sqlite3.
-         'USER': 'bookshelf',
-         'PASSWORD': 'bookshelf',  # Not used with sqlite3.
-        'HOST': '172.20.201.203',                      # Set to empty string for localhost. Not used with sqlite3.
+        'NAME': 'xxx',  # Or path to database file if using sqlite3.
+         'USER': 'xxx',
+         'PASSWORD': 'xxx',  # Not used with sqlite3.
+        'HOST': 'xxx',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '3306',  # Set to empty string for default. Not used with sqlite3.
         "OPTIONS": {
             "init_command": "SET foreign_key_checks = 0;",
