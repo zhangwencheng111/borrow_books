@@ -62,7 +62,7 @@ App({
         // appSecret: '25f225cee1b8da033ecbd23ac68beb1a',
         // session_key: null,
         // userId: null,//用户userId        
-        apiUrl: "bookshelf.ppcredit.com",//"localhost:8111",//www.1949science.cn
+        apiUrl: "xxx",//"localhost:8111",//www.1949science.cn
         timer: 30000,//定时器设置时间
         //access_token:null,
         // pilotKeepTime:7 ,//自营点时间
