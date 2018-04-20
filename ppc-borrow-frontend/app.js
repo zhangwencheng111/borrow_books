@@ -58,8 +58,8 @@ App({
         rawData: null,
         signature: null,
         user_uuid: null,
-        // appId: 'wxe0a4d0328b2d85cb',
-        // appSecret: '25f225cee1b8da033ecbd23ac68beb1a',
+        // appId: 'xxx',
+        // appSecret: 'xxx',
         // session_key: null,
         // userId: null,//用户userId        
         apiUrl: "xxx",//"localhost:8111",//www.1949science.cn
