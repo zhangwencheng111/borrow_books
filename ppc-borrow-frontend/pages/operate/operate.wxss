@@ -1,0 +1,35 @@
+.item{
+    background: #fff;
+    height: 93%;
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+.top{
+    margin-top: 10px;
+    height: 56%;
+}
+.bottom{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.bottom-box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.list-box{
+    width: 23%;
+    margin: 15px 1% 15px 1%;
+    float: left;
+    height: 90px;
+}
+.icon-text{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px
+}

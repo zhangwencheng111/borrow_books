@@ -1,0 +1,3 @@
+<view>
+  <image class="bottom-box" src="../../images/scanner.png" bindtap="screenISBN"></image>
+</view>

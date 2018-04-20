@@ -1,0 +1,24 @@
+<scroll-view style="height:100%" id="catewrap" scroll-into-view="c2" scroll-y="true">
+  <text class="title">借书</text>
+  <view id="cateall" class="cl_list">
+    <text class="cl_ico_checked cl_ico"></text> {{bookInfo.name}}
+  </view>
+  <view id="cateall" class="cl_list">
+    <text style="float:left;width:100px;line-height:47px">借书人</text>
+    <!-- <picker bindchange="bindPickerChange" style="width:100px;float:right" value="{{index}}" range="{{owner}}">
+            <view class="picker">
+                {{owner[index]}}
+            </view>
+        </picker> -->
+    <text class="rightText">{{userInfo.nickName}}</text>
+  </view>
+  <!-- <view id="cateall" bindtap="cateselect" class="cl_list ">
+    <text style="float:left;width:100px;line-height:47px">允许借阅</text>
+    <input type="text" value="{{bookInfo.keep_time}}天" bindinput="setBorrowDays" id="uploadDays" style="float:right;width:200px;height:47px;line-height:47px;text-align:right;margin-right:30px" />
+  </view> -->
+  <form name='pushMsgFm' report-submit="true" bindsubmit="affirmBorrowBook">
+    <button form-type="submit" style="width:95%;margin:0 auto;border-radius:5px;height:50px;background: #FE552E;text-align: center;color:#fff;position:fixed;bottom:0px" class="btn">
+      确认借阅
+    </button>
+  </form>
+</scroll-view>

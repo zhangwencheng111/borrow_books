@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress
+spec:
+  rules:
+  - host: bookshelf1.ppcredit.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: weixin-src
+          servicePort: 8111
+
+  - host: bookshelf.ppcredit.com 
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: weixin-src
+          servicePort: 8111
+
