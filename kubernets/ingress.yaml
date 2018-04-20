@@ -4,7 +4,7 @@ metadata:
   name: ingress
 spec:
   rules:
-  - host: bookshelf1.ppcredit.com
+  - host: xxx
     http:
       paths:
       - path: /
@@ -12,7 +12,7 @@ spec:
           serviceName: weixin-src
           servicePort: 8111
 
-  - host: bookshelf.ppcredit.com 
+  - host: xxx1 
     http:
       paths:
       - path: /
